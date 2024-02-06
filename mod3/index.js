@@ -1,3 +1,4 @@
-let mensagem ='Hello Word!!';
+let mensagem = "Hello Word!!";
+const mensagem2 = "Hello Word 2!";
 
-console.log (`Meu nome e Miguel, então ${mensagem}`)
+console.log(mensagem + mensagem2);
