@@ -40,6 +40,6 @@ switch(usuario.time){
     case 'cruzeiro':
         console.log(mensagem8);
         break;
-        
-    
+    default:
+        console.log(geral);
 }
