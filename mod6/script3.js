@@ -1,7 +1,7 @@
 const usuario = {
     nome: "Miguel",
     idade: 16,
-    time: "flamengo"
+    time: "vasco"
 }
 
 const mensagem1 = "Olá torcedor do flamengo";
