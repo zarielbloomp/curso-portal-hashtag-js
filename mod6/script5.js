@@ -19,5 +19,4 @@ function calculateFibonnaci(termNumber) {
   }
   return lastTerm;
 }
-
 console.log(`O valor numero 6 da sequencia e ${calculateFibonnaci(6)}`);
