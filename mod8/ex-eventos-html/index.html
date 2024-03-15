@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
 </head>
 <body>
-    <button onclick="clicar()" id="button1">Clique aq</button>
-    <p>Texto</p>
-    <input type="text" name="" id="" placeholder="Faça o L">
-</body>
+    <h2>Eventos em elementos HTML</h2>
+    <p onmouseover="mudarCor(this)" onmouseout="voltarCor(this)">Passe o mouse aqui para mudar a cor do texto.</p>
+    <button onclick="alerta(this)">Clique aqui</button>
+    <input type="text" placeholder="Digite aqui" onfocus="mensagemFoco(this)" onblur="mensagemDesfoco(this)"/>
+    <img src="imagem1.png" alt="Imagem misteriosa" id="imagem" onmouseover="trocarImagem('imagem2.png')" onmouseout="trocarImagem('imagem1.png')" />
 
-<script>
-    function clicar(){
-        window.alert("Botão clicado")
-    }
-</script>
+    <script src="sript.js"></script>
+</body>
 </html>
